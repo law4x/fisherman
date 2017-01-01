@@ -1,0 +1,47 @@
+{
+    "info" : {
+          "name" : "Fisherman",
+          "version" : 3
+    },
+	
+  "aliases" : 
+  {
+
+    "jobs:index" : "file(jobs/index.json)",
+    
+	
+	
+	
+    "jobs:fisherman" : "file(jobs/fisherman/fisherman_description.json)",
+
+    "fisherman:talisman" : "file(jobs/fisherman/fishing_rod/fishing_rod_talisman.json)",
+	
+	
+    "fisherman:fishing_rod" : "file(jobs/fisherman/fishing_rod)",
+    "fisherman:outfit" : "file(jobs/fisherman/fisherman_outfit)"
+
+	},
+
+  "controllers" : 
+  {
+    "class:fisherman" : "file(jobs/fisherman/fisherman.lua)"
+
+  },
+
+  "mixintos" : 
+  {
+    "stonehearth/jobs/carpenter/recipes/recipes.json" : "file(jobs/carpenter/recipes/recipes.json)",
+    "stonehearth/jobs/index.json" : "file(jobs/index.json)",
+    
+	},
+
+  "ui" : 
+  {
+    "less" : 
+    [
+      "file(jobs/fisherman/skin/workshop.less)"
+
+    ]
+
+  }
+}

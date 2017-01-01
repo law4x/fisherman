@@ -1,0 +1,11 @@
+{
+   "craftable_recipes" : {
+      "tools_weapons" : {
+         "recipes" : {
+            "arcanist_tome" : {
+               "recipe" : "file(fishing_rod_recipe.json)"
+            }  
+         }
+      }
+   }
+}

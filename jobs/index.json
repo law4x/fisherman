@@ -1,0 +1,10 @@
+{
+   "jobs" : {
+      "fisherman:jobs:fisherman" : { 
+         "description" : "fisherman:jobs:fisherman"
+      },
+      "stonehearth:jobs:carpenter" : {
+      	 "description" : "stonehearth:jobs:carpenter"
+      }
+   }
+}

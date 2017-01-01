@@ -1,0 +1,41 @@
+{
+   "job_id": "fisherman",
+   "alias" : "fisherman:jobs:fisherman",
+   "name" : "Fisherman",
+   "controller" : "fisherman:class:fisherman", 
+   "description" : "The Fisherman fishes", 
+   "requirements": "Fishing Rod, crafted by the Carpenter",
+
+
+   "equipment" : {
+      "torso" : "file(fisherman_outfit)",
+      "mainhand" : "fisherman:fisherman:fishing_rod"
+   },
+
+   "roles" : "fisherman_job",
+   "talisman_uri" : "fisherman:fisherman:talisman", 
+   "default_stance" : "passive",
+
+   "icon" : "file(images/icon.png)",
+   "bannerIcon" : "file(images/banner.png)",
+   "promotion_activity_name" : "promote_fisherman",
+
+   "task_groups" : [
+      "stonehearth:task_group:common_tasks",
+      "stonehearth:task_group:restock",
+      "stonehearth:task_group:placement",
+      "stonehearth:task_group:town_alert"
+   ],
+
+   "parent_job" : "stonehearth:jobs:worker",
+
+   "xp_rewards" : {
+
+   },
+
+   "max_level" : 6, 
+
+   "level_data" : {
+      
+   }
+}

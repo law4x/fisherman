@@ -1,0 +1,25 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 5,
+   "recipe_name" : "Fishing Rod",
+   "description" : "Promotes a hearthling into an Fisherman.",
+   "flavor"      : "Give a man a fish, and you can feed him for a day. But give a fish a man, and you can feed it for a month.",
+   "portrait"    : "/fisherman/jobs/fisherman/fishing_rod/fishing_rod.png",
+   "level_requirement" : 1,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "material": "fiber resource",
+         "count": 1
+      }
+   ],
+  "produces": [
+      {
+         "item" : "fisherman:fisherman:talisman"
+      }
+  ]
+}
